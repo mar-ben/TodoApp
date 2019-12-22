@@ -1,0 +1,29 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Simple Todo application using electron",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mar-ben/TodoApp.git"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "electron",
+    "javascript"
+  ],
+  "author": "benhar mariasoosai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mar-ben/TodoApp/issues"
+  },
+  "homepage": "https://github.com/mar-ben/TodoApp#readme",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
+}
