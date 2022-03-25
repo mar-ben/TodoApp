@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/mar-ben/TodoApp#readme",
   "devDependencies": {
-    "electron": "^7.1.7"
+    "electron": "^13.6.6"
   }
 }
