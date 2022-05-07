@@ -1,0 +1,5 @@
+1) create the UI template
+2) create UI components
+3) work on the flow
+4) save the do on firebase api
+
