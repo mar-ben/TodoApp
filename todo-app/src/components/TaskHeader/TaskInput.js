@@ -13,6 +13,7 @@ const TaskInput = () => {
     dispatch(
       taskActions.addTask({
         name: inputRef.current.value,
+        status: "Active",
       })
     );
 

@@ -6,6 +6,7 @@ const initialState = {
     { id: 1, name: "buy milk", status: "Active" },
     { id: 2, name: "buy book", status: "Completed" },
   ],
+  filterStatus: "Active",
 };
 const taskSlice = createSlice({
   name: "tasks",
@@ -28,6 +29,9 @@ const taskSlice = createSlice({
         (item) => item.id === action.payload.id
       );
       state.items[index] = action.payload;
+    },
+    setStatusFilter(state, action) {
+      state.filterStatus = action.payload;
     },
   },
 });

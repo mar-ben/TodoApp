@@ -6,17 +6,15 @@
   color: #adb5bd;
   background-color: #fff;
   border: 0px;
+  border-radius: 10px;
 }
 .taskfilters button:hover {
   color: #fff;
   background-color: #868e96;
   border: 0px;
-  border-radius: 10px;
 }
 
-.taskfilters button:selected {
-  color: #fff;
-  background-color: #868e96;
-  border: 0px;
-  border-radius: 10px;
+.selected {
+  color: #fff !important;
+  background-color: #868e96 !important;
 }
